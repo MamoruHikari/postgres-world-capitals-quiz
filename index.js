@@ -6,7 +6,11 @@ const app = express();
 const port = process.env.PORT || 3000; 
 
 const db = new pg.Client({
-  connectionString: 'postgresql://postgresdb_owner:XLNl3T5gmeOB@ep-frosty-dew-a2nbh26t.eu-central-1.aws.neon.tech/postgresdb?sslmode=require',
+  user: "postgres",
+  host: "localhost",
+  database: "sekai",
+  password: "japanfuture",
+  port: 5432
 });
 
 db.connect();
