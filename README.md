@@ -30,19 +30,6 @@ Access the live app: [Postgres World Capitals Quiz](https://postgres-world-capit
 
 ---
 
-## **How It Works**
-
-1. **Fetching Questions**: The app pulls a list of countries and their capitals from a PostgreSQL database.
-2. **Gameplay**: 
-   - A random question is displayed, asking the user for the capital of a specific country.  
-   - Users submit their answers via an input field.
-3. **Real-Time Feedback**: 
-   - Correct answers are validated against the database, and the app updates the total score.  
-   - Users are shown whether their answer was correct or incorrect before proceeding to the next question.
-4. **Randomization**: Questions are randomly selected to ensure no two sessions feel the same.
-
----
-
 ## **Future Enhancements**
 
 - **Difficulty Levels**: Add easy, medium, and hard modes based on less common capitals.  
